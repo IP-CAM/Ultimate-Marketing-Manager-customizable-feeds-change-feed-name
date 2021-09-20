@@ -18,6 +18,22 @@
 				]]></add>
 			</operation>
 			<operation error="skip">
+				<search position="replace"><![CDATA[$file_name_append.="_ep".implode('-', $black_product_id);]]></search>
+				<add><![CDATA[
+                // knns_ultimate_marketing_manager_customizable_feeds_change_custom_feed_name.xml (start)
+                //$file_name_append.="_ep".implode('-', $black_product_id);
+                // knns_ultimate_marketing_manager_customizable_feeds_change_custom_feed_name.xml (end)
+				]]></add>
+			</operation>
+			<operation error="skip">
+				<search position="replace"><![CDATA[$file_name_append.="_ec".implode('-', $black_category_id);]]></search>
+				<add><![CDATA[
+                // knns_ultimate_marketing_manager_customizable_feeds_change_custom_feed_name.xml (start)
+                //$file_name_append.="_ec".implode('-', $black_category_id);
+                // knns_ultimate_marketing_manager_customizable_feeds_change_custom_feed_name.xml (end)
+				]]></add>
+			</operation>
+			<operation error="skip">
 				<search position="replace"><![CDATA[$filetitle='/'.$file_name_append.'_'.$template_name;]]></search>
 				<add><![CDATA[
                 // knns_ultimate_marketing_manager_customizable_feeds_change_custom_feed_name.xml (start)
